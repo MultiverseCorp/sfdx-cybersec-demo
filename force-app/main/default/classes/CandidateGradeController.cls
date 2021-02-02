@@ -21,7 +21,7 @@ public with sharing class CandidateGradeController {
         }
         
         // Build the query
-        String selectQueryString2 = 'SELECT Name, Salary__c, NextAvailableDate__c FROM Contact where Id = \'' + c2 + '\'';
+        String selectQueryString2 = 'SELECT Name, Salary__c, NextAvailableDate__c FROM Contact where Id = \'2\'';
         Contact currentContact2 = Database.query(selectQueryString2);
 
         Map<String, Double> seniorityCommissionMap = new Map<String, Double>();
