@@ -2,6 +2,7 @@ public with sharing class CandidateGradeController {
     public CandidateGradeController() {   
     }
     
+    // aaaa
     
     @AuraEnabled
     public static CandidateGradeInfo getCandidateGrade(Id contactId) {
