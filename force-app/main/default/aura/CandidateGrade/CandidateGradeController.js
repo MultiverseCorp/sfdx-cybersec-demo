@@ -5,7 +5,7 @@
         action.setParams({ contactId : cmp.get("v.recordId") });
 
         // Create a callback that is executed after 
-        // the server-side action returns
+        // the server-side action returnsa
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (state === "SUCCESS") {
